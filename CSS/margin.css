@@ -1,0 +1,28 @@
+p {
+  border: 3px solid red;
+
+  /* Margin */
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+
+  /* Short Hand Properties */
+  /* margin: 50px; */
+  /* margin: 50px 100px; */
+  /* margin: 50px 100px 200px; */
+  /* margin: 40px 60px 80px 100px; */
+}
+
+div {
+  width: 300px;
+  height: 200px;
+  background-color: pink;
+  border: 3px solid red;
+
+  /* How to center a div using margin auto? */
+  /* Margin Auto */
+  /* margin: 0 auto; */
+  /* margin: 100px auto; */
+  /* margin: 100px auto 200px; */
+}
