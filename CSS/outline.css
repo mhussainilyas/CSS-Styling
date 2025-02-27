@@ -1,0 +1,12 @@
+p {
+  border: 3px solid red;
+
+  /* outline */
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: green;
+  outline-offset: 4px; /* space between border and outline */
+
+  /* Short Hand Property */
+  /* outline: 3px solid blue; */
+}
