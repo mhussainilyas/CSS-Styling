@@ -1,0 +1,15 @@
+p {
+  border: 3px solid blue;
+
+  /* Padding */
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+
+  /* Short Hand Properties */
+  /* padding: 10px; */
+  /* padding: 20px 40px; */
+  /* padding: 20px 40px 50px; */
+  /* padding: 10px 20px 30px 40px; */
+}
