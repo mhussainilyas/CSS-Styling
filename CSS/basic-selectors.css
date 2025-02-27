@@ -1,0 +1,26 @@
+/* tag seletor */
+h1 {
+  color: red;
+}
+
+/* id seletor */
+#box {
+  color: red;
+  background-color: pink;
+}
+
+/* class seletor */
+.btn {
+    background-color: pink;
+    border: 1px solid red;
+    color: red;
+}
+
+/* decendent seletor */
+ul li {
+    color: red;
+}
+
+ul li.list {
+    background-color: pink;
+}
