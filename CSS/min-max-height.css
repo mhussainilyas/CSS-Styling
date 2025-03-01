@@ -1,0 +1,10 @@
+p {
+  border: 1px solid blue;
+  width: 500px;
+
+  /* min-height */
+  /* min-height: 200px; */
+
+  /* max-height */
+  max-height: 500px;
+}
