@@ -1,0 +1,9 @@
+p {
+  width: 500px;
+  border: 10px solid red;
+  padding: 50px;
+
+  /* box-sizing */
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+}
