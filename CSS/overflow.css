@@ -1,0 +1,18 @@
+div {
+    width: 300px;
+    height: 250px;
+    border: 2px solid blue;
+    padding: 10px;
+
+    /* overflow */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* overflow: visible; */
+
+    /* overflow-x */
+    overflow-x: auto;
+
+    /* overflow-y */
+    overflow-y: auto;
+}
