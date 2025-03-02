@@ -1,0 +1,19 @@
+div {
+  width: 250px;
+  border: 2px solid blue;
+  padding: 20px;
+
+  /* border radius */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 5px;
+
+  /* short hand properties */
+  /* border-radius: 30px 10px 30px 10px; */
+  /* border-radius: 10px 50px; */
+  /* border-radius: 30px; */
+
+  /* for complete circle */
+  /* border-radius: 50%; */
+}
