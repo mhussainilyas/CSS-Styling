@@ -1,0 +1,28 @@
+div {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.div1 {
+  width: 400px;
+  border: 2px solid red;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.div2 {
+  width: 400px;
+  border: 2px solid blue;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.div3 {
+  width: 100%;
+  border: 2px solid green;
+
+  /* clear property */
+  /* clear: left; */
+  /* clear: right; */
+  clear: both;
+}
