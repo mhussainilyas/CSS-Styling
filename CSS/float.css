@@ -1,17 +1,23 @@
 .div1 {
   border: 3px solid red;
   width: 500px;
+
+  /* float */
   float: left;
 }
 
 .div2 {
   border: 3px solid blue;
   width: 650px;
-  float: left;
   margin-left: 20px;
+
+  /* float */
+  float: left;
 }
 .div3 {
   border: 3px solid green;
   width: 300px;
+
+  /* float */
   float: right;
 }
