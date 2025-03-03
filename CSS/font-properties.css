@@ -1,0 +1,70 @@
+body {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  width: 700px;
+  padding: 25px;
+  border: 2px solid red;
+}
+
+p span {
+  /* font-size: 1em; */
+  font-size: 2em;
+}
+
+.div1 {
+  width: 400px;
+  padding: 25px;
+  border: 2px solid green;
+  /*
+  ======================
+     Font Properties
+  ======================
+  */
+
+  /* 1. font-size */
+  /* font-size: 25px; */
+  /* according to parent font */
+  /* font-size: 100%; */
+  /* font-size: 50%; */
+  /* font-size: 1em; */
+  /* font-size: 2em; */
+
+  /* 2. line-height */
+  /* line-height: 25px; */
+  /* line-height: 1em; */
+  /* line-height: 2em; */
+
+  /* 3. font-weight */
+  /* font-weight: bold; */
+  /* font-weight: normal; */
+  /* according to parent font */
+  /* font-weight: bolder; */
+  /* font-weight: lighter; */
+  /* font-weight: 600; */
+
+  /* 4. font-style */
+  /* font-style: italic; */
+  /* font-style: normal; */
+  /* font-style: oblique; */
+
+  /* 5. font-family */
+  /* font-family: Arial; */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
+  /* 6. font-varient */
+  /* font-variant: normal; */
+  /* font-variant: small-caps; */
+  /*
+  ===============
+    Short hand
+  ===============
+  */
+  /* font: oblique small-caps normal 1em/25px Arial, Helvetica, Verdana; */
+  /* font: small-caps normal 1em/25px Arial, Helvetica, Verdana; */
+  /* font: normal 1em/25px Arial, Helvetica, Verdana; */
+  /* font: bold 1em/25px Arial, Helvetica, Verdana; */
+  font: 1em/2em Arial, Helvetica, Verdana;
+}
