@@ -1,0 +1,11 @@
+body {
+  background-image: url(../../images/programming.jpg);
+
+  /* background-repeat */
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: space; */
+  /* background-repeat: round; */
+  background-repeat: no-repeat;
+}

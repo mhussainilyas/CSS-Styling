@@ -1,0 +1,6 @@
+body {
+  background-image: url(../../images/programming.jpg),
+    url(../../images/programming01.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+}

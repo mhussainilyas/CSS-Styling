@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  background-image: url(../../images/programming.jpg);
+  background-repeat: no-repeat;
+
+  /* background-position */
+  
+  /* pre-defined */
+  /* background-position: left top; */
+  /* background-position: left center; */
+  /* background-position: left bottom; */
+  /* background-position: center top; */
+  background-position: center center;
+  /* background-position: center bottom; */
+  /* background-position: right top; */
+  /* background-position: right center; */
+  /* background-position: right bottom; */
+
+  /* custom position */
+  /* background-position: 100px 150px; */
+  /* background-position: 20% 30%; */
+}

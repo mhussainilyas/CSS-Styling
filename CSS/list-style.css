@@ -1,0 +1,47 @@
+/* Properties */
+/* 1. list-style-image */
+/* 2. list-style-position */
+/* 3. list-style-type */
+/* 4. list-style */
+
+ul {
+  /* list-style-type */
+  /* list-style-type: circle; */
+  /* list-style-type: square; */
+  /* list-style-type: none; */
+  /* list-style-type: disc; */
+
+  /* list-style-position */
+  /* list-style-position: inside; */
+  /* list-style-position: outside; */
+
+  /* list-style-image */
+  /* list-style-image: url(../images/arrow-icon.png); */
+
+  /* list-style */
+  list-style: none inside url(../images/arrow-icon.png);
+}
+
+li {
+  border: 1px solid blue;
+}
+
+ol {
+  /* list-style-type */
+  /* list-style-type: upper-alpha; */
+  /* list-style-type: lower-alpha; */
+  /* list-style-type: upper-roman; */
+  /* list-style-type: lower-roman; */
+  /* list-style-type: none; */
+  /* list-style-type: decimal; */
+
+  /* list-style-position */
+  /* list-style-position: inside; */
+  /* list-style-position: outside; */
+
+  /* list-style-image */
+  /* list-style-image: url(../images/arrow-icon.png); */
+
+  /* list-style */
+  list-style: none inside url(../images/arrow-icon.png);
+}

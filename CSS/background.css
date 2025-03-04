@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+
+  /* background */
+  /* This is a short hand property */
+  /* background: color image repeat position; */
+  background: red url(../images/programming.jpg) no-repeat center;
+}

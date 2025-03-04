@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "firaCode";
+  src: url(../font/Fira_Code/FiraCode-VariableFont_wght.ttf);
+}
+
+h1 {
+  font-family: "firaCode";
+}
+
+.div1 {
+  font-family: "firaCode";
+}

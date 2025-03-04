@@ -1,0 +1,34 @@
+/* Properties */
+/* 1. column-count */
+/* 2. column-gap */
+/* 3. column-rule */
+/* 4. column-rule-width */
+/* 5. column-rule-style */
+/* 6. column-rule-color */
+/* 7. column-width */
+/* 8. column-fill */
+/* 9. column-span */
+/* 10. column */
+
+.div1 {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+
+  /* column properties */
+  column-count: 3;
+  column-gap: 50px;
+  column-rule-width: 5px;
+  column-rule-style: double;
+  column-rule-color: orange;
+  /* Short hand of column-rule */
+  /* column-rule: 10px solid orangered; */
+}
+
+h1 {
+    text-align: center;
+
+    /* column-span */
+    /* column-span: none; */
+    column-span: all;
+}
