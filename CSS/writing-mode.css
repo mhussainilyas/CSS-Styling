@@ -1,0 +1,18 @@
+h1 {
+  writing-mode: sideways-lr;
+}
+
+.div1 {
+  width: 400px;
+  height: 350px;
+  border: 2px solid orange;
+  padding: 10px;
+  text-align: justify;
+
+  /* writing-mode */
+  /* writing-mode: horizontal-tb; */
+  /* writing-mode: vertical-lr; */
+  /* writing-mode: vertical-rl; */
+  /* writing-mode: sideways-rl; */
+  writing-mode: sideways-lr;
+}
