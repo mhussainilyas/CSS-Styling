@@ -1,0 +1,12 @@
+.div1 {
+  width: 400px;
+  border: 2px solid blue;
+
+  /* word-wrap */
+  /* word-wrap: normal; */
+  word-wrap: break-word;
+
+  /* word-break */
+  /* word-break: keep-all; */
+  word-break: break-all;
+}
