@@ -1,0 +1,13 @@
+.div1 {
+  width: 300px;
+  border: 2px solid red;
+  padding: 5px;
+  overflow: auto;
+
+  /* white-space */
+  /* white-space: nowrap; */
+  /* white-space: pre; */
+  /* white-space: pre-line; */
+  white-space: pre-wrap;
+  /* white-space: normal; */
+}
