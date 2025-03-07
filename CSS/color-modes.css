@@ -1,0 +1,56 @@
+/* 
+================================
+  Different Color Modes In CSS
+================================
+1. Color Name
+2. Hexadecimal (#rrggbb)
+3. rgb(red, green, bue)
+4. rgba(red, green, blue, alpha) red, green, blue = 0-255, & alpha = 0-1 
+5. hsl(hue, saturation, lightness) hue = 0-360, saturation, lightness = 0-100%
+6. hsla(hue, saturation, lightness, alpha)
+*/
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/programming.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+div#box {
+  width: 600px;
+  height: 200px;
+  border: 5px solid black;
+  padding: 25px;
+
+  /* 1. color name */
+  /* background-color: slategray; */
+  /* background-color: red; */
+  /* background-color: orange; */
+
+  /* 2. Hexadecimal */
+  /* background-color: #ffff00; */
+  /* background-color: #00ff00; */
+  /* background-color: #ffa500; */
+
+  /* 3. rgb() */
+  /* background-color: rgb(111, 255, 0); */
+  /* background-color: rgb(255, 170, 0); */
+  /* background-color: rgb(255, 0, 123); */
+
+  /* 4. rgba() */
+  /* background-color: rgb(111, 255, 0, 0.7); */
+  /* background-color: rgb(255, 170, 0, 0.2); */
+  /* background-color: rgb(255, 0, 123, 0.5); */
+
+  /* 5. hsl() */
+  /* background-color: hsl(94, 100%, 50%); */
+  /* background-color: hsl(280, 100%, 50%); */
+  /* background-color: hsl(200, 100%, 50%); */
+
+  /* 6. hsla() */
+  /* background-color: hsl(280, 100%, 50%, 0.3); */
+  /* background-color: hsl(94, 100%, 50%, 0.5); */
+  /* background-color: hsl(200, 100%, 50%, 0.9); */
+}

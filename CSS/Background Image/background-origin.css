@@ -1,0 +1,18 @@
+body {
+  background-color: pink;
+}
+
+div#box {
+  width: 800px;
+  height: 400px;
+  border: 20px dotted red;
+  background-color: #fff;
+  padding: 25px;
+  background-image: url(../../images/programming.jpg);
+  background-repeat: no-repeat;
+
+  /* background origin */
+  /* background-origin: border-box; */
+  /* background-origin: padding-box; */
+  background-origin: content-box;
+}
