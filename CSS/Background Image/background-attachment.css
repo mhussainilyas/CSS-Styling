@@ -1,0 +1,8 @@
+body {
+  width: 100%;
+  background: pink url(../../images/programming.jpg) no-repeat;
+
+  /* background attachment */
+  /* background-attachment: scroll; */
+  background-attachment: fixed;
+}
