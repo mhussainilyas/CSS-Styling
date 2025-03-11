@@ -1,0 +1,19 @@
+#box {
+  width: 600px;
+  height: 300px;
+  border: 3px solid red;
+  padding: 30px;
+  background: linear-gradient(to right, red, yellow),
+    url(../../images/programming.jpg);
+
+    /* background blend mode */
+    background-blend-mode: screen;
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: soft-light; */
+    /* background-blend-mode: hue; */
+    /* background-blend-mode: saturation; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: normal; */
+}

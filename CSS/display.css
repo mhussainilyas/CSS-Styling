@@ -1,0 +1,28 @@
+h1 {
+  /* display */
+  display: none;
+}
+
+ul {
+  border: 2px solid red;
+}
+
+li {
+  border: 2px solid blue;
+
+  /* display */
+  display: inline;
+}
+
+span {
+  border: 2px solid green;
+
+  /* display */
+  /* display: block; */
+  /* display: inline-block; */
+  display: list-item;
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  list-style-position: inside;
+}

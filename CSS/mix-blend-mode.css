@@ -1,0 +1,32 @@
+#box {
+  width: 600px;
+  height: 300px;
+  border: 3px solid red;
+  background: url(../images/programming.jpg) no-repeat center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 30px;
+
+  /* mix blend mode */
+  /* mix-blend-mode: screen; */
+  /* mix-blend-mode: overlay; */
+  /* mix-blend-mode: darken; */
+  /* mix-blend-mode: hue; */
+  /* mix-blend-mode: saturation; */
+  /* mix-blend-mode: difference; */
+  /* mix-blend-mode: soft-light; */
+  /* mix-blend-mode: hard-light; */
+  /* mix-blend-mode: multiply; */
+  /* mix-blend-mode: color-dodge; */
+  /* mix-blend-mode: color-burn; */
+  mix-blend-mode: color-burn;
+}
