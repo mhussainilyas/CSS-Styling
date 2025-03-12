@@ -1,0 +1,33 @@
+div#box {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+
+  /* position */
+
+  /* 1) relative */
+  /* position: relative; */
+  /* top: 100px; */
+  /* left: 100px; */
+  /* bottom: 100px; */
+  /* right: 100px; */
+
+  /* 2) absolute */
+  /* position: absolute; */
+  /* top: 100px; */
+  /* left: 100px; */
+  /* bottom: 100px; */
+  /* right: 100px; */
+
+  /* 3) fixed */
+  /* position: fixed; */
+  /* top: 10px; */
+  /* left: 10px; */
+  /* bottom: 10px; */
+  /* right: 10px; */
+
+  /* 4) sticky */
+  position: sticky;
+  top: 10px;
+  left: 10px;
+}

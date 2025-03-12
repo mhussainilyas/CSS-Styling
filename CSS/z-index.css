@@ -1,0 +1,35 @@
+div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+div#box1 {
+  background-color: pink;
+  border: 2px solid red;
+  top: 100px;
+  left: 100px;
+
+  /* z-index */
+  z-index: 3;
+}
+
+div#box2 {
+  background-color: skyblue;
+  border: 2px solid blue;
+  top: 150px;
+  left: 150px;
+
+  /* z-index */
+  z-index: -1;
+}
+
+div#box3 {
+  background-color: yellowgreen;
+  border: 2px solid green;
+  top: 200px;
+  left: 200px;
+
+  /* z-index */
+  z-index: 2;
+}

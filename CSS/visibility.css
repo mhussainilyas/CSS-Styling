@@ -1,0 +1,12 @@
+ul {
+  /* visibility: hidden; */
+  visibility: visible;
+}
+
+#table-second-row {
+  visibility: collapse;
+}
+
+#table-third-row-data {
+  visibility: collapse;
+}
