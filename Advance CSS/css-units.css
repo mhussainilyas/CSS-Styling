@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
+
+body {
+  font-size: 20px;
+}
+
+div {
+  background-color: papayawhip;
+  border: 2px solid orange;
+  padding: 20px;
+  /* height: 300px; */
+
+  /* px (pixel) */
+  /* fixed or absolute unit. */
+  /* width: 600px; */
+
+  /* % (percentage) */
+  /* relative unit work according to its parent element. */
+  /* width: 100%; */
+
+  /* em */
+  /* relative unit work according to its parent element. */
+  /* default: 1em = 16px (browser's default font-size) */
+  /* font-size: 1em; */
+  /* font-size: 0.5em; */
+  /* font-size: 2em; */
+
+  /* rem */
+  /* relative unit work according to its root (<html></html>) element. */
+  /* default: 1em = 16px (browser's default font-size) */
+  /* font-size: 1rem; */
+  /* font-size: 0.5rem; */
+  /* font-size: 2rem; */
+
+  /* vm & vh (viewport width & height) */
+  /* width: 100vw; */
+  /* width: 50vw; */
+  /* width: 20vw; */
+  /* height: 100vh; */
+  /* height: 50vh; */
+  /* height: 30vh; */
+
+  /* vmax & vmin */
+  /* vmax represents 1% of the viewport's larger dimension, whether it's width or height. */
+  /* vmin represents 1% of the viewport's smaller dimension, whether it's width or height. */
+  /* width: 50vmax; */
+  /* height: 50vmax; */
+  /* width: 50vmin; */
+  /* height: 50vmin; */
+}

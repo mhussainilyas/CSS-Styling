@@ -1,0 +1,38 @@
+/* Global Variables */
+:root {
+  --white-color: #ffffff;
+  --red-color: red;
+  --light-orange-color: papayawhip;
+  --arial-font: Arial;
+  --impact-font: Impact;
+  --t-shadow: 0 0 1rem red;
+}
+
+body {
+  background-color: var(--light-orange-color);
+}
+
+h1 {
+  font-family: var(--impact-font);
+  color: var(--red-color);
+  text-shadow: var(--t-shadow);
+}
+
+div {
+  width: 600px;
+  height: 350px;
+  padding: 20px;
+  border: 2px solid var(--red-color);
+
+  /* Local Variable */
+  --blue-color: orange;
+  --verdana-font: verdana;
+}
+
+div p {
+  font-family: var(--verdana-font);
+}
+
+div a {
+  color: var(--blue-color);
+}
