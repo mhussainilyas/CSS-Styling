@@ -1,0 +1,52 @@
+/* Properties */
+/* 1) border-spacing: ; */
+/* 2) border-collapse: ; */
+/* 3) vertical-align: ; */
+/* 4) caption-side: ; */
+/* 5) empty-cells: ; */
+/* 6) table-layout: ; */
+
+table,
+th,
+td {
+  border: 1px solid #000;
+}
+
+table {
+  width: 300px;
+
+  /* border-spacing: ; */
+  /* border-spacing: 10px; */
+  /* border-spacing: 10px 30px; */
+
+  /* border-collapse: ; */
+  /* border-collapse: separate; */
+  /* border-collapse: collapse; */
+
+  /* empty-cells: ; */
+  /* empty-cells: hide; */
+  /* empty-cells: show; */
+
+  /* table-layout: ; */
+  /* table-layout: auto; */
+  /* table-layout: fixed; */
+}
+
+td {
+  /* vertical-align: ; */
+  /* vertical-align: center; */
+  /* vertical-align: bottom; */
+  vertical-align: top;
+}
+
+td,
+th {
+  /* padding: 10px; */
+  padding: 5px 20px;
+}
+
+caption {
+  /* caption-side: ; */
+  /* caption-side: bottom; */
+  caption-side: top;
+}
