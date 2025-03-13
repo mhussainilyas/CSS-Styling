@@ -1,0 +1,17 @@
+div {
+  width: 500px;
+  height: 300px;
+  background-color: papayawhip;
+  border: 2px solid orange;
+  text-align: center;
+  color: orange;
+
+  /* cursor: ; */
+  /* cursor: pointer; */
+  /* cursor: help; */
+  /* cursor: wait; */
+  /* cursor: none; */
+  cursor: cell;
+
+  /* 👉👉👉 "https://css-tricks.com/almanac/properties/c/cursor/" */
+}
