@@ -1,0 +1,26 @@
+div {
+  width: 500px;
+  height: 300px;
+  background-color: papayawhip;
+  border: 2px solid orange;
+  color: orange;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  /* resize: ; */
+  overflow: auto;
+  /* resize: none; */
+  /* resize: vertical; */
+  /* resize: horizontal; */
+  resize: both;
+}
+
+textarea {
+    resize: none;
+}
+
+p {
+  color: black;
+  text-align: justify;
+}
