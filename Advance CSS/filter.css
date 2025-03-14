@@ -1,0 +1,73 @@
+/* use for image effects. */
+img {
+  /* 1) blur */
+  /* filter: blur(0px); */
+  /* filter: blur(5px); */
+  /* filter: blur(10px); */
+  /* filter: blur(15px); */
+
+  /* 2) brightness */
+  /* filter: brightness(0%); */
+  /* filter: brightness(50%); */
+  /* filter: brightness(100%); */
+  /* filter: brightness(200%); */
+  /* filter: brightness(400%); */
+
+  /* 3) contrast */
+  /* filter: contrast(0%); */
+  /* filter: contrast(60%); */
+  /* filter: contrast(100%); */
+  /* filter: contrast(150%); */
+  /* filter: contrast(200%); */
+
+  /* 4) drop-shadow() */
+  /* Shadow for PNG Images. */
+  /* filter: drop-shadow(8px 8px 10px red); */
+  /* filter: drop-shadow(-8px 8px 10px red); */
+  /* filter: drop-shadow(-8px -8px 10px red); */
+  /* filter: drop-shadow(-8px -8px 10px red) drop-shadow(8px 8px 10px blue); */
+
+  /* 5) grayscale() */
+  /* filter: grayscale(0%); */
+  /* filter: grayscale(40%); */
+  /* filter: grayscale(70%); */
+  /* filter: grayscale(100%); */
+
+  /* 6) hue-rotate() */
+  /* filter: hue-rotate(0deg); */
+  /* filter: hue-rotate(120deg); */
+  /* filter: hue-rotate(190deg); */
+  /* filter: hue-rotate(240deg); */
+  /* filter: hue-rotate(360deg); */
+
+  /* 7) invert() */
+  /* filter: invert(0%); */
+  /* filter: invert(40%); */
+  /* filter: invert(60%); */
+  /* filter: invert(100%); */
+
+  /* 8) opacity() */
+  /* filter: opacity(0%); */
+  /* filter: opacity(40%); */
+  /* filter: opacity(70%); */
+  /* filter: opacity(100%); */
+
+  /* 9) saturate() */
+  /* filter: saturate(0%); */
+  /* filter: saturate(60%); */
+  /* filter: saturate(100%); */
+  /* filter: saturate(150%); */
+  /* filter: saturate(210%); */
+
+  /* 10) sepia() */
+  /* filter: sepia(0%); */
+  /* filter: sepia(50%); */
+  /* filter: sepia(80%); */
+  /* filter: sepia(100%); */
+
+  /* 11) none */
+  filter: none;
+
+  /* multiple filter's values. */
+  filter: blur(2px) hue-rotate(190deg) saturate(150%) drop-shadow(0 0 20px red);
+}

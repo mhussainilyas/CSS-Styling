@@ -1,0 +1,56 @@
+img {
+  /* circle */
+  /* clip-path: circle(30% at 50% 50%); */
+  /* clip-path: circle(30% at 0% 50%); */
+  /* clip-path: circle(30% at 100% 50%); */
+  /* clip-path: circle(60% at 0% 0%); */
+  /* clip-path: circle(60% at 100% 0%); */
+
+  /* ellipse */
+  /* clip-path: ellipse(10% 40% at 50% 50%); */
+  /* clip-path: ellipse(40% 10% at 50% 50%); */
+  /* clip-path: ellipse(30% 40% at 30% 50%); */
+  /* clip-path: ellipse(10% 40% at 0% 50%); */
+  /* clip-path: ellipse(10% 40% at 100% 50%); */
+
+  /* inset */
+  /* clip-path: inset(10% 20% 10% 20%); */
+  /* clip-path: inset(30% 40% 30% 40%); */
+
+  /* polygon */
+  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+  clip-path: polygon(
+    50% 0%,
+    65% 28%,
+    98% 35%,
+    78% 59%,
+    79% 91%,
+    51% 74%,
+    21% 91%,
+    22% 59%,
+    2% 35%,
+    35% 28%
+  );
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  background-color: papayawhip;
+  border: 3px solid orange;
+  clip-path: polygon(
+    50% 0%,
+    65% 28%,
+    98% 35%,
+    78% 59%,
+    79% 91%,
+    51% 74%,
+    21% 91%,
+    22% 59%,
+    2% 35%,
+    35% 28%
+  );
+}
+
+/* visit: https://bennettfeely.com/clippy/ */
