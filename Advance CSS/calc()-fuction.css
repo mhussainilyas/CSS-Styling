@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+/* Fixing overflowing of elements. */
+/*
+div {
+  width: calc(100% - 20px - 20px - 3px - 3px);
+  height: 300px;
+  background-color: papayawhip;
+  border: 3px solid orange;
+  padding: 20px;
+}
+*/
+/* centering the the elements. */
+/*
+div {
+  width: 500px;
+  height: 300px;
+  background-color: papayawhip;
+  border: 3px solid orange;
+  position: absolute;
+  top: calc(50% - 150px - 3px);
+  left: calc(50% - 250px - 3px);
+}
+*/
+/* Layout Design Trick */
+div#one {
+  height: 80px;
+  width: 100%;
+  background-color: skyblue;
+}
+
+div#two {
+  width: 100%;
+  height: calc(100vh - 80px - 80px);
+  display: flex;
+}
+
+div#two-one {
+  width: 80%;
+  background-color: lightgreen;
+}
+
+div#two-two {
+  width: 20%;
+  background-color: papayawhip;
+}
+
+div#three {
+  height: 80px;
+  width: 100%;
+  background-color: lightcoral;
+}
