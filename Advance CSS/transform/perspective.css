@@ -1,0 +1,33 @@
+/* Note That: this property will work on parent element. */
+
+div#parent {
+  width: 250px;
+  height: 200px;
+  background-color: gray;
+  margin: 150px 250px;
+  border-radius: 3px;
+
+  /* perspective */
+  /* perspective: 500px; */
+  /* perspective: 100px; */
+  /* perspective: 1000px; */
+  perspective: 800px;
+}
+
+div#child {
+  width: 250px;
+  height: 200px;
+  background-color: tomato;
+  color: #eee;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  transition: all 0.5s linear;
+}
+
+div#child:hover {
+  /* transform: rotateX(40deg); */
+  transform: rotateY(40deg);
+}

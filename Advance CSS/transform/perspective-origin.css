@@ -1,0 +1,48 @@
+div#parent {
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    margin: 150px 250px;
+    border-radius: 3px;
+  
+    /* perspective */
+    perspective: 800px;
+
+    /* perspective-origin */
+
+    /* pre defined values */
+    /* perspective-origin: top; */
+    /* perspective-origin: bottom; */
+    /* perspective-origin: left; */
+    /* perspective-origin: right; */
+    /* perspective-origin: left top; */
+    /* perspective-origin: left center; */
+    /* perspective-origin: left bottom; */
+    /* perspective-origin: right top; */
+    /* perspective-origin: right center; */
+    /* perspective-origin: right bottom; */
+
+    /* custom value */
+    /* perspective-origin: 20% 40%; */
+    perspective-origin: 250px 400px;
+  }
+  
+  div#child {
+    width: 250px;
+    height: 200px;
+    background-color: tomato;
+    color: #eee;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: all 0.5s linear;
+    transform: rotateY(40deg);
+  }
+  
+  div#child:hover {
+    /* transform: rotateX(40deg); */
+    transform: rotateY(40deg);
+  }
+  

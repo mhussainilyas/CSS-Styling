@@ -1,0 +1,32 @@
+div#box {
+  width: 250px;
+  height: 150px;
+  background-color: tomato;
+  margin: 150px 250px;
+  color: #eee;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+
+  /* transform */
+  transform: rotate(60deg);
+
+  /* transform-origin */
+  /* pre defined value */
+  /* transform-origin: left; */
+  /* transform-origin: right; */
+  /* transform-origin: top; */
+  /* transform-origin: bottom; */
+  /* transform-origin: left top; */
+  /* transform-origin: left center; */
+  /* transform-origin: left bottom; */
+  /* transform-origin: right top; */
+  /* transform-origin: right center; */
+  /* transform-origin: right bottom; */
+  /* custom value */
+  /* transform-origin: 20% 30%; */
+  /* transform-origin: 0% 100%;  */
+  /* transform-origin: 0% 0%;  */
+}

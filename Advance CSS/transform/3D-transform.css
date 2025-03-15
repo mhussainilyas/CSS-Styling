@@ -1,0 +1,36 @@
+div#parent {
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+    margin: 150px 250px;
+    border-radius: 3px;
+}
+
+div#child {
+  width: 250px;
+  height: 150px;
+  background-color: tomato;
+  color: #eee;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  transition: all 0.5s linear;
+}
+
+div#child:hover {
+    
+    /* rotate() */
+    /* transform: perspective(700px) rotateX(180deg);   */
+    /* transform: perspective(700px) rotateY(180deg);   */
+    /* transform: perspective(700px) rotateZ(180deg);   */
+    
+    /* translate() */
+    /* transform: perspective(700px) rotateY(40deg) translateZ(100px);   */
+    /* transform: perspective(700px) rotateY(40deg) translate3d(100px, 50px, 200px);   */
+    
+    /* scale() */
+    /* transform: perspective(700px) scaleZ(3) rotateX(40deg);   */
+    transform: perspective(700px) scale3d(2, 2, 4) rotateX(30deg);  
+}
