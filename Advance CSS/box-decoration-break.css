@@ -1,0 +1,13 @@
+span {
+  background: linear-gradient(to bottom, red, yellow);
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 45px;
+
+  /* box-decoration-break */
+  /* box-decoration-break: slice; */
+  box-decoration-break: clone;
+}

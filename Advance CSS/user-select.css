@@ -1,0 +1,29 @@
+/* ========== user-select ========== */
+/* The user-select CSS property controls the text selection behavior of an element on a webpage. This property allows you to define whether users can select text and, if so, how they can interact with it. */
+
+div.card {
+  width: 500px;
+  background-color: papayawhip;
+  padding: 20px;
+  border: 2px solid orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.card p {
+  margin: 0;
+
+  /* user-select */
+  user-select: none;
+  /* user-select: auto; */
+  /* user-select: text; */
+  /* select all in just 1 click 👇 */
+  /* user-select: all;  */
+}
+
+div.card h2 {
+  margin: 0 0 10px 0;
+  color: orange;
+}

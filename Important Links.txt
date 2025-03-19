@@ -8,3 +8,4 @@
 8) https://bennettfeely.com/csspiechart/ (pie chart)
 9) https://bennettfeely.com/gradients/ (gradient + blend mode effect.)
 10) https://bennettfeely.com/image-effects/ (image effects)
+11) https://picsum.photos (online images)

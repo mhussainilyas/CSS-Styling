@@ -1,0 +1,12 @@
+q {
+  display: inline-block;
+  background-color: wheat;
+  padding: 10px;
+  font-size: 30px;
+
+  /* qoutes */
+  quotes: "#" "&";
+  quotes: "❝" "❞";
+  /* for nesting qoutes */
+  quotes: "$" "$" "&" "&";
+}
