@@ -1,0 +1,29 @@
+div.box {
+  width: 350px;
+  height: 350px;
+  border: 30px solid black;
+  padding: 20px;
+  background-color: mediumpurple;
+  margin: 150px 300px;
+
+  /* border-image */
+  /* border-image-source: url(../../images/border-image.png); */
+  /* border-image-slice: 220; */
+  /* border-image-repeat: round; */
+  /* border-image-repeat: repeat; */
+  /* border-image-repeat: stretch; */
+  /* border-image-repeat: repeat stretch; */
+  /* border-image-outset: 40px; */
+  /* border-image-width: 50px; */
+
+  /* Short Hand */
+  /* border-image: source slice / width / outset repeat; */
+  /* border-image: url(../../images/border-image.png) 220 / 40px / 35px round; */
+
+  /* linear gradient border */
+  border-image: linear-gradient(to right, red, yellow) 25 / 50px / 40px round;
+}
+
+div.box p {
+  text-align: justify;
+}
