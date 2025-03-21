@@ -1,0 +1,24 @@
+/* link */
+ul a:link {
+  color: red;
+}
+
+/* hover */
+ul a:hover {
+  color: blue;
+}
+
+/* visited */
+ul a:visited {
+  color: green;
+}
+
+/* active */
+ul a:active {
+  color: orange;
+}
+
+/* target */
+p:target {
+  background-color: yellow;
+}
