@@ -6,37 +6,35 @@
     <title>CSS Tutorial</title>
     <link
       rel="stylesheet"
-      href="Advance CSS/pseudo classes/anchor-pseudo-classes.css"
+      href="Advance CSS/pseudo classes/form-pseudo-classes.css"
     />
   </head>
   <body>
     <h1>Pseudo Classes</h1>
-    <ul class="anchor">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blogs</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <ul id="list">
-      <li><a href="#html">What is HTML?</a></li>
-      <li><a href="#css">What is CSS?</a></li>
-      <li><a href="#js">What is JS?</a></li>
-    </ul>
-    <h2>All Answers</h2>
-    <p id="html">
-      <b>HTML:</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-      Quidem consectetur velit laborum a? Excepturi earum quam, ratione unde et
-      velit?
-    </p>
-    <p id="css">
-      <b>CSS:</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-      Quidem consectetur velit laborum a? Excepturi earum quam, ratione unde et
-      velit?
-    </p>
-    <p id="js">
-      <b>JS:</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-      Quidem consectetur velit laborum a? Excepturi earum quam, ratione unde et
-      velit?
-    </p>
+    <form action="">
+      <label>First Name: </label><input type="text" required /><br /><br />
+      <label>Last Name: </label><input type="text" value="Hussain" readonly disabled /><br /><br />
+      <label>Your Age: </label
+      ><input type="number" min="10" max="20" required /><br /><br />
+      <label>Your Email: </label><input type="email" required /><br /><br />
+      <label>Your Hobbies: </label>
+      <input type="checkbox" name="hobby" /><label>Sports</label>
+      <input type="checkbox" name="hobby" /><label>Music</label>
+      <input type="checkbox" name="hobby" /><label>Travel</label>
+      <input type="checkbox" name="hobby" checked /><label>Reading</label> <br /><br />
+      <label>Your Gender: </label>
+      <input type="radio" name="gender" checked /><label>Male</label>
+      <input type="radio" name="gender" /><label>Female</label> <br /><br />
+      <label>Your Country: </label>
+      <select name="country">
+        <option value="none">Select</option>
+        <option value="pakistan" selected>Pakistan</option>
+        <option value="india">India</option>
+        <option value="new-zealand">New Zealand</option>
+        <option value="england">England</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>

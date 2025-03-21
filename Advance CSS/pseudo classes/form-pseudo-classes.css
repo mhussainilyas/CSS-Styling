@@ -1,0 +1,66 @@
+/* focus */
+input:focus {
+  border: 3px solid red;
+  outline: none;
+}
+
+/* checked */
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+  color: orange;
+}
+
+/* enabled */
+input:enabled {
+  border: 3px solid blue;
+}
+
+/* disabled */
+input:disabled {
+  border: 3px solid crimson;
+}
+
+/* required */
+input:required {
+  background-color: yellow;
+}
+
+/* optional */
+input:optional {
+  background-color: aqua;
+}
+
+/* in-range */
+input[type="number"]:in-range {
+  background-color: lightgreen;
+}
+
+/* out-of-range */
+input[type="number"]:out-of-range {
+  background-color: pink;
+}
+
+/* read-only */
+input:read-only {
+  color: red;
+  font-weight: bold;
+}
+
+/* read-write */
+input:read-write {
+  background-color: lightpink;
+}
+
+/* valid */
+input:valid {
+  background-color: lightyellow;
+}
+
+input:invalid {
+  background-color: lightcoral;
+}
+
+/* default */
+input:default {
+  box-shadow: 0 0 0 3px red;
+}
