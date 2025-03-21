@@ -1,0 +1,41 @@
+/*
+========================
+   Simple Selectors
+========================
+*/
+/* 1) Type(Tag) Selector */
+/* 2) Class Selector */
+/* 3) Id Selector */
+/* 4) Universal Selector */
+
+/* ===================== */
+
+/* tag seletor */
+h1 {
+  color: red;
+}
+
+/* id seletor */
+#box {
+  color: red;
+  background-color: pink;
+}
+
+/* class seletor */
+.btn {
+  background-color: pink;
+  border: 1px solid red;
+  color: red;
+}
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section#about * { 
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

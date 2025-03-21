@@ -1,0 +1,47 @@
+/*
+=========================
+  Combinators Selectors
+=========================
+*/
+/* 1) Descendant Selector */
+/* 2) Direct Child Selector */
+/* 3) Adjacent Sibling Selector */
+/* 4) General Sibling Selector */
+
+/* ===================== */
+
+/* Descendant Selector */
+
+div#box p {
+  color: blue;
+}
+
+div#box p span {
+  color: orange;
+}
+
+ul li {
+  color: green;
+}
+
+/* Direct Child Selector (>) */
+
+ul#list > li {
+  color: red;
+}
+
+div#box1 > p {
+    color: blue;
+}
+
+/* Adjacent Sibling Selector (+) */
+
+ul + p {
+    color: blue;
+}
+
+/* General Sibling Selector (~) */
+
+ul ~ p {
+    color: green;
+}

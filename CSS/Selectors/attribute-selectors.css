@@ -1,0 +1,67 @@
+/*
+=======================
+  Attribute Selectors
+=======================
+*/
+
+/* A[attr] */
+/* A[attr=val] */
+/* A[attr^=val] */
+/* A[attr|=val] */
+/* A[attr$=val] */
+/* A[attr*=val] */
+/* A[attr~=val] */
+
+/* ============ */
+
+/* A[attr] */
+
+img[title] {
+  border: 5px solid red;
+}
+
+a[target] {
+  color: orange;
+  font-family: "Impact";
+}
+
+/* A[attr=val] */
+
+input[type="password"] {
+  border: 3px solid blue;
+}
+
+/* A[attr^=val] */
+/* attribute begin with the value */
+
+img[title^="Image"] {
+  filter: blur(5px);
+}
+
+/* A[attr|=val] */
+/* attribute begin with the value OR is first in a dash separated list */
+
+img[alt|="image"] {
+  border: 5px solid green;
+}
+
+/* A[attr$=val] */
+/* attribute ends with the value */
+
+img[alt$="cat"] {
+  filter: drop-shadow(5px 5px 10px red);
+}
+
+/* A[attr*=val] */
+/* Value occurs anywhere in attribute */
+
+img[src*="picsum"]:hover {
+  transform: scale(1.1);
+}
+
+/* A[attr~=val] */
+/* Value occurs anywhere in attribute but having space before and after is mendatory */
+
+input[name~="Address"] {
+    background-color: yellow;
+}
