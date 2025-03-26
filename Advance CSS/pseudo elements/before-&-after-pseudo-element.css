@@ -1,0 +1,18 @@
+p {
+  font-size: 37px;
+  margin-top: 200px;
+}
+
+/* before */
+p::before {
+  content: "Hello ";
+  background-color: red;
+  color: #fff;
+}
+
+/* after */
+p::after {
+  content: " World";
+  background-color: green;
+  color: #fff;
+}

@@ -1,0 +1,22 @@
+/* first-letter */
+p::first-letter {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* first-line */
+p::first-line {
+  color: red;
+  background-color: pink;
+}
+
+/* selection */
+p::selection {
+  background-color: skyblue;
+  color: blue;
+}
+
+/* placeholder */
+input::placeholder {
+    color: dodgerblue;
+}

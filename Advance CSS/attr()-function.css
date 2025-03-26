@@ -1,0 +1,13 @@
+p::after {
+  content: attr(data-caption);
+  color: tomato;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+p::before {
+  content: attr(class);
+  color: dodgerblue;
+  font-size: 19px;
+  font-weight: bold;
+}
